@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NONE</title>
+    <style>
+        /* 在这里添加你的CSS样式 */
+    </style>
+</head>
+<body>
+    <h1>我的GitHub仓库</h1>
+    <ul id="file-list"></ul>
+
+    <script>
+        // GitHub API 获取仓库内容的端点
+        const apiUrl = 'https://api.github.com/repos/Reqeekouton/reqeekouton.github.io/contents';
+
+        // 获取仓库内容的函数
+        async function fetchRepositoryContents() {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                displayContents(data);
+            } catch (error) {
+                console.error('获取仓库内容时出错:', error);
+            }
+        }
+
+        // 在网页上显示仓库内容的函数
+        function displayContents(contents) {
+            const fileList = document.getElementById('file-list');
+            contents.forEach(item => {
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                link.href = `https://reqeekouton.github.io/${item.name}`;
+                link.textContent = item.name;
+                listItem.appendChild(link);
+                fileList.appendChild(listItem);
+            });
+        }
+
+        // 页面加载时调用fetchRepositoryContents函数
+        window.addEventListener('load', fetchRepositoryContents);
+    </script>
+</body>
+   
+  </html>
