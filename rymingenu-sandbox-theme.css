@@ -1,12 +1,10 @@
-
-
 @charset "utf-8";
  
 @import url('https://cdn.jsdelivr.net/gh/scp-cn-tech/sigma9@cn/fonts/font-bauhaus.css');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
-/* ¶àÖØÕÛµşÄ£¿é */
+/* å¤šé‡æŠ˜å æ¨¡å— */
 @import url('https://cdn.jsdelivr.net/gh/scp-cn-tech/sigma9@cn/modules/colstyle.min.css');
  
 /*
@@ -14,11 +12,11 @@
     [2014 Wikidot Theme]
     Created for the SCP Foundation by Aelanna
     Edited for SCP Foundation by Dr Devan
-    Edited for SCP»ù½ğ»á by MScarlet, Dr Devan and Sekai_s
+    Edited for SCPåŸºé‡‘ä¼š by MScarlet, Dr Devan and Sekai_s
 */
  
 /*
-ÏÂÃæµÄ´úÂëÊÇÎªÁË·½±ãÔÚÎŞÏŞ±£´æÊ±¸´ÖÆ³öÒ³ÃæµÄÄÚÈİ¶ø¼ÓµÄ£¬¸´ÖÆ×Ô£ºhttps://evernight-aquarium.wikidot.com/component:non-savingpage£¬Ô´Ò³ÃæÎª£ºhttp://scp-jp-sandbox3.wikidot.com/component:non-savingpage
+ä¸‹é¢çš„ä»£ç æ˜¯ä¸ºäº†æ–¹ä¾¿åœ¨æ— é™ä¿å­˜æ—¶å¤åˆ¶å‡ºé¡µé¢çš„å†…å®¹è€ŒåŠ çš„ï¼Œå¤åˆ¶è‡ªï¼šhttps://evernight-aquarium.wikidot.com/component:non-savingpageï¼Œæºé¡µé¢ä¸ºï¼šhttp://scp-jp-sandbox3.wikidot.com/component:non-savingpage
 */
  
 body[class="wait"] #odialog-shader-iframe, body[class="wait"] #odialog-shader {
@@ -43,7 +41,7 @@ div#lock-info {
   padding: 0.4rem .8rem;
 }
 div#lock-info::before {
-  content: 'ÄúÎÕÓĞÒ»¸ö¶ÀÕ¼µÄ15 ·ÖÖÓËø¶¨£¬Õâ½«»á×èÖ¹ÆäËûÈË±à¼­ÄúÕıÔÚ×÷ÒµµÄÒ³Ãæ¡£\AÕâ¸öËø¶¨½«ÔÚÏĞÖÃ ';
+  content: 'æ‚¨æ¡æœ‰ä¸€ä¸ªç‹¬å çš„15 åˆ†é’Ÿé”å®šï¼Œè¿™å°†ä¼šé˜»æ­¢å…¶ä»–äººç¼–è¾‘æ‚¨æ­£åœ¨ä½œä¸šçš„é¡µé¢ã€‚\Aè¿™ä¸ªé”å®šå°†åœ¨é—²ç½® ';
   display: inline;
   font-size: .82rem;
   white-space: pre-wrap;
@@ -55,12 +53,12 @@ div#lock-info > br {
   display: none;
 }
 div#lock-info::after {
-  content: ' ÃëºóÊ§Ğ§¡£';
+  content: ' ç§’åå¤±æ•ˆã€‚';
   display: inline;
   font-size: .82rem;
 }
 body[class="wait"] a[name="page-top"][target]+div #main-content #action-area div#lock-info::before {
-  content: '±£´æÒ³ÃæÖĞ¡­¡­\AÈô´ËÌáÊ¾ÒÑ¾­ÏÔÊ¾ÁËºÜ³¤Ê±¼ä£¬½¨Òé½«±à¼­¿òÖĞµÄÄÚÈİ¸´ÖÆµ½¼ôÇĞ°åÈ»ºóË¢ĞÂ±¾Ò³ÖØĞÂ±à¼­¡£';
+  content: 'ä¿å­˜é¡µé¢ä¸­â€¦â€¦\Aè‹¥æ­¤æç¤ºå·²ç»æ˜¾ç¤ºäº†å¾ˆé•¿æ—¶é—´ï¼Œå»ºè®®å°†ç¼–è¾‘æ¡†ä¸­çš„å†…å®¹å¤åˆ¶åˆ°å‰ªåˆ‡æ¿ç„¶ååˆ·æ–°æœ¬é¡µé‡æ–°ç¼–è¾‘ã€‚';
   display: inline;
   font-size: .82rem;
   color: red;
