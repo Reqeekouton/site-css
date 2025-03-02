@@ -1,6 +1,14 @@
 @font-face {
-    font-family: 'Fangsong';
-    src: url('https://rymingenu-sandbox.wikidot.com/local--files/appendix/Fangsong_GB2312.ttf') format('truetype');
+    font-family: 'FangSong';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'KaiTi';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Kaiti_GB2312.ttf') format('truetype');
+    font-weight: normal; 
     font-style: normal;
 }
