@@ -4,6 +4,22 @@
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Noto+Serif+SC:wght@200..900&display=swap');
+
+@font-face {
+    font-family: 'FangSong';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'KaiTi';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@0ad4244f9ec7ab35dd05313cd1e05d7e80b68d4c/public/fonts/Kaiti_GB2312.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+ }
 /* 多重折叠模块 */
 @import url('https://cdn.jsdelivr.net/gh/scp-cn-tech/sigma9@cn/modules/colstyle.min.css');
  
