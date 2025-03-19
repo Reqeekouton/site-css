@@ -1,0 +1,11 @@
+@import url('https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Noto+Serif+SC&display=swap');
+
+@font-face {
+    font-family: 'FangSong';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@8119b1dbc6d72918c0692f3fb2a13cb4bbd85596/public/fonts/Times%20New%20Roman.ttf') format('truetype');
+}
