@@ -1,5 +1,7 @@
 @import url('https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css2?family=Noto+Serif+SC&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Noto+Serif+SC&display=swap');
+
 @font-face {
     font-family: 'FangSong';
     src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@91f4d12bd2c52ee1329b1c08b1f97692eb02030f/public/fonts/Fangsong_GB2312.ttf') format('truetype');
