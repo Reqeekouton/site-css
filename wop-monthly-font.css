@@ -9,3 +9,8 @@
     font-family: 'Times New Roman';
     src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/reqeekouton.github.io@8119b1dbc6d72918c0692f3fb2a13cb4bbd85596/public/fonts/Times%20New%20Roman.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Maoti';
+    src: url('https://cdn.jsdelivr.net/gh/Reqeekouton/site-css@2c4e4aabb9c31230f57142bb554f1429d4d1d498/fonts/maoti.ttf') format('truetype');
+}
